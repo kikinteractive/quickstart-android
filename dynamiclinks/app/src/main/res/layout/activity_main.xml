@@ -39,16 +39,81 @@
         android:layout_marginTop="24dp"
         android:text="@string/title_send"/>
 
+    <EditText
+        android:id="@+id/link_path_to_append"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:layout_margin="5dp"
+        android:text="apath/toappend/tothelink"/>
+
+    <Button
+        android:id="@+id/button_create_link"
+        android:layout_width="@dimen/standard_field_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/create" />
+
     <TextView
         android:id="@+id/link_view_send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autoLink="web"
-        tools:text="https://abc.xyz/foo"/>
+        tools:text="none"/>
+
+    <RadioGroup
+        android:id="@+id/app_radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Twt"
+            />
+        <RadioButton
+            android:id="@+id/radio_whatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whts"
+            />
+        <RadioButton
+            android:id="@+id/radio_messenger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FbM"
+            />
+        <RadioButton
+            android:id="@+id/radio_kik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kik"
+            />
+        <RadioButton
+            android:id="@+id/radio_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ln"
+            />
+        <RadioButton
+            android:id="@+id/radio_gmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"
+            />
+    </RadioGroup>
 
     <Button
         android:id="@+id/button_share"
         android:layout_width="@dimen/standard_field_width"
         android:layout_height="wrap_content"
         android:text="@string/share" />
+
+    <Button
+        android:id="@+id/button_share2"
+        android:layout_width="@dimen/standard_field_width"
+        android:layout_height="wrap_content"
+        android:text="Share with custom invite" />
 </LinearLayout>

@@ -5,11 +5,17 @@
       Your app code, see:
       https://firebase.google.com/docs/dynamic-links/android
     -->
-    <string name="app_code">YOUR_APP_CODE</string>
+    <string name="app_code">qn7g8</string>
 
 
     <string name="share">Share</string>
+    <string name="create">Create Link</string>
     <string name="title_receive">Receive</string>
-    <string name="title_send">Send</string>
+    <string name="title_send">Deep Link For Sharing</string>
     <string name="msg_no_deep_link">No deep link received.</string>
+    <string name="msg_no_deep_link_created">No deep link created yet.</string>
+    <string name="chat_share_intent_text">Share with</string>
+    <string name="chat_share_message_prefix">POC!</string>
+    <string name="chat_share_message">Group video chat started. Join here -</string>
+
 </resources>
