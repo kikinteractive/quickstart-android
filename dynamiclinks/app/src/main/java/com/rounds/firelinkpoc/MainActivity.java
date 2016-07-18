@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.rounds.firelinktest;
+package com.rounds.firelinkpoc;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -231,7 +231,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 		Intent intent = new AppInviteInvitation.IntentBuilder("Berry Invitation title")
 				.setMessage("Berry Invitation message")
 				.setDeepLink(Uri.parse(deepLink))
-				.setCustomImage(Uri.parse("android.resource://com.rounds.firelinktest/drawable/logo512"))
+				.setCustomImage(Uri.parse("android.resource://com.rounds.firelinkpoc/drawable/logo512"))
 				.setCallToActionText("Call to action!")
 				.build();
 		startActivityForResult(intent, 101);
